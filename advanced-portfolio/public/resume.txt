@@ -1,0 +1,125 @@
+SADIQ KHAN
+Full-Stack Developer & AI Engineer
+=====================================
+
+CONTACT INFORMATION
+-------------------
+Email: sadiqkhan.dev@example.com
+Phone: +92 XXX XXXXXXX
+Location: Pakistan
+Portfolio: https://sadiqkhan.dev
+GitHub: github.com/sadiqkhan
+LinkedIn: linkedin.com/in/sadiqkhan
+
+PROFESSIONAL SUMMARY
+--------------------
+Passionate Full-Stack Developer with expertise in modern web technologies and AI integration.
+Specialized in building scalable applications using Next.js, React, TypeScript, and Node.js.
+Experienced in developing AI-powered solutions, SaaS platforms, and premium user interfaces
+that deliver exceptional user experiences and drive business results.
+
+TECHNICAL SKILLS
+----------------
+Frontend:
+- React, Next.js 14, TypeScript, JavaScript (ES6+)
+- Tailwind CSS, CSS3, HTML5, Responsive Design
+- Framer Motion, Animation Libraries
+- State Management (Zustand, Redux)
+
+Backend:
+- Node.js, Express.js, FastAPI
+- RESTful APIs, GraphQL
+- PostgreSQL, MongoDB, Redis
+- Prisma ORM, Database Design
+
+AI & Machine Learning:
+- OpenAI API, GPT Integration
+- LangChain, Vector Databases
+- AI Agents, Automation Systems
+- Prompt Engineering
+
+DevOps & Tools:
+- Git, GitHub, Version Control
+- Vercel, AWS, Cloud Deployment
+- Docker, CI/CD Pipelines
+- Agile Methodologies
+
+PROFESSIONAL EXPERIENCE
+-----------------------
+
+Full-Stack Developer
+Freelance | 2022 - Present
+- Developed 20+ web applications using Next.js, React, and TypeScript
+- Integrated AI capabilities using OpenAI and custom ML models
+- Built scalable SaaS platforms serving 1000+ users
+- Implemented responsive designs with 95+ Lighthouse scores
+- Collaborated with clients to deliver projects on time and within budget
+
+AI Integration Specialist
+Tech Startup | 2023 - 2024
+- Led AI integration projects for enterprise clients
+- Developed custom AI agents and automation workflows
+- Reduced operational costs by 40% through intelligent automation
+- Implemented RAG systems and vector database solutions
+- Mentored junior developers on AI best practices
+
+Web Developer
+Digital Agency | 2021 - 2022
+- Created responsive websites and web applications
+- Worked with cross-functional teams on client projects
+- Optimized website performance and SEO
+- Maintained and updated existing client websites
+- Participated in code reviews and team meetings
+
+EDUCATION
+---------
+Bachelor of Science in Computer Science
+University Name | 2018 - 2022
+
+CERTIFICATIONS
+--------------
+- Next.js & React - The Complete Guide
+- Advanced TypeScript Programming
+- AI & Machine Learning Fundamentals
+- Full-Stack Web Development
+
+PROJECTS
+--------
+
+AI SaaS Platform
+- Built full-stack AI-powered analytics platform
+- Technologies: Next.js, OpenAI, PostgreSQL, Stripe
+- Features: Real-time insights, predictive modeling, subscription billing
+- Result: 500+ users in first month
+
+E-Commerce Dashboard
+- Developed modern admin dashboard with inventory management
+- Technologies: React, Node.js, MongoDB, Tailwind CSS
+- Features: Analytics, order processing, real-time updates
+- Result: Improved operational efficiency by 60%
+
+AI Automation System
+- Created intelligent workflow automation with custom AI agents
+- Technologies: Python, LangChain, FastAPI, Redis
+- Features: Task scheduling, natural language processing
+- Result: Reduced manual work by 70%
+
+LANGUAGES
+---------
+- English: Fluent
+- Urdu: Native
+- Hindi: Fluent
+
+INTERESTS
+---------
+- AI & Machine Learning
+- Open Source Contribution
+- Tech Blogging
+- Continuous Learning
+
+REFERENCES
+----------
+Available upon request
+
+---
+Last Updated: May 2024

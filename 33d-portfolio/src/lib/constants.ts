@@ -1,0 +1,221 @@
+import { Project, Skill, Experience, Testimonial, NavLink, SocialLink } from "./types";
+
+export const PERSONAL_INFO = {
+  name: "Sadiq Khan",
+  title: "Full Stack Developer | AI Engineer | Agentic AI Developer",
+  bio: "Passionate developer specializing in modern web applications, AI-powered systems, Agentic AI workflows, automation, and scalable software solutions. Currently learning and building projects in Full Stack Development, Next.js, TypeScript, Python, AI Agents, and LLM-powered applications.",
+  email: "sadiqkhan@example.com",
+  location: "Pakistan",
+  resumeUrl: "/resume.pdf",
+};
+
+export const NAV_LINKS: NavLink[] = [
+  { label: "Home", href: "#hero" },
+  { label: "About", href: "#about" },
+  { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
+  { label: "Experience", href: "#experience" },
+  { label: "AI", href: "#ai-showcase" },
+  { label: "Contact", href: "#contact" },
+];
+
+export const SOCIAL_LINKS: SocialLink[] = [
+  { label: "GitHub", href: "https://github.com/sadiqkhan", icon: "github" },
+  { label: "LinkedIn", href: "https://linkedin.com/in/sadiqkhan", icon: "linkedin" },
+  { label: "X", href: "https://x.com/sadiqkhan", icon: "x" },
+  { label: "Email", href: "mailto:sadiqkhan@example.com", icon: "mail" },
+];
+
+export const PROJECTS: Project[] = [
+  {
+    id: "ai-car-security",
+    title: "AI Car Security System",
+    description: "An intelligent car security system leveraging AI for real-time threat detection, facial recognition, and predictive analytics to prevent vehicle theft and unauthorized access.",
+    image: "/images/project-ai-car.jpg",
+    tags: ["Python", "TensorFlow", "OpenCV", "IoT", "Raspberry Pi"],
+    liveUrl: "https://example.com/ai-car-security",
+    githubUrl: "https://github.com/sadiqkhan/ai-car-security",
+    category: "ai",
+    featured: true,
+  },
+  {
+    id: "agentic-ai-assistant",
+    title: "Agentic AI Assistant",
+    description: "A multi-agent AI assistant system capable of autonomous task execution, web research, code generation, and complex workflow orchestration using LangGraph and LLM agents.",
+    image: "/images/project-agentic.jpg",
+    tags: ["LangGraph", "OpenAI", "Python", "Next.js", "LangChain"],
+    liveUrl: "https://example.com/agentic-ai",
+    githubUrl: "https://github.com/sadiqkhan/agentic-ai",
+    category: "ai",
+    featured: true,
+  },
+  {
+    id: "atm-banking",
+    title: "ATM Banking Application",
+    description: "A full-featured ATM banking system with transaction processing, account management, security protocols, and a modern CLI interface with audit logging capabilities.",
+    image: "/images/project-atm.jpg",
+    tags: ["TypeScript", "Node.js", "Inquirer", "Chalk", "CLI"],
+    githubUrl: "https://github.com/sadiqkhan/atm-banking",
+    category: "fullstack",
+    featured: true,
+  },
+  {
+    id: "lie-detection",
+    title: "Lie Detection Simulator",
+    description: "An AI-powered lie detection simulator using micro-expression analysis, voice pattern recognition, and behavioral AI to analyze statements and provide credibility assessments.",
+    image: "/images/project-lie.jpg",
+    tags: ["Python", "AI", "Computer Vision", "NLP", "Flask"],
+    liveUrl: "https://example.com/lie-detector",
+    githubUrl: "https://github.com/sadiqkhan/lie-detector",
+    category: "ai",
+    featured: true,
+  },
+  {
+    id: "logistics-freight",
+    title: "Logistics Freight Platform",
+    description: "A comprehensive logistics and freight management platform with real-time tracking, route optimization, fleet management, and automated dispatch using AI.",
+    image: "/images/project-logistics.jpg",
+    tags: ["Next.js", "PostgreSQL", "Prisma", "TypeScript", "Tailwind"],
+    liveUrl: "https://example.com/logistics",
+    githubUrl: "https://github.com/sadiqkhan/logistics",
+    category: "fullstack",
+    featured: true,
+  },
+  {
+    id: "saas-dashboard",
+    title: "Next.js SaaS Dashboard",
+    description: "A modern SaaS dashboard with real-time analytics, user management, subscription handling, and comprehensive data visualization components.",
+    image: "/images/project-saas.jpg",
+    tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Stripe"],
+    liveUrl: "https://example.com/saas-dashboard",
+    githubUrl: "https://github.com/sadiqkhan/saas-dashboard",
+    category: "fullstack",
+    featured: true,
+  },
+];
+
+export const SKILLS: Skill[] = [
+  { name: "HTML", percentage: 95, category: "frontend" },
+  { name: "CSS", percentage: 92, category: "frontend" },
+  { name: "JavaScript", percentage: 90, category: "frontend" },
+  { name: "TypeScript", percentage: 88, category: "frontend" },
+  { name: "React", percentage: 85, category: "frontend" },
+  { name: "Next.js", percentage: 82, category: "frontend" },
+  { name: "Tailwind", percentage: 90, category: "frontend" },
+  { name: "Node.js", percentage: 80, category: "backend" },
+  { name: "Express", percentage: 78, category: "backend" },
+  { name: "PostgreSQL", percentage: 75, category: "backend" },
+  { name: "MongoDB", percentage: 72, category: "backend" },
+  { name: "Prisma", percentage: 78, category: "backend" },
+  { name: "OpenAI", percentage: 85, category: "ai" },
+  { name: "LangChain", percentage: 80, category: "ai" },
+  { name: "LangGraph", percentage: 75, category: "ai" },
+  { name: "Agentic AI", percentage: 78, category: "ai" },
+  { name: "MCP", percentage: 70, category: "ai" },
+  { name: "RAG", percentage: 76, category: "ai" },
+  { name: "Vector DB", percentage: 68, category: "ai" },
+  { name: "Git", percentage: 92, category: "tools" },
+  { name: "GitHub", percentage: 90, category: "tools" },
+  { name: "Docker", percentage: 70, category: "tools" },
+  { name: "Linux", percentage: 75, category: "tools" },
+  { name: "Vercel", percentage: 85, category: "tools" },
+  { name: "VS Code", percentage: 95, category: "tools" },
+];
+
+export const EXPERIENCES: Experience[] = [
+  {
+    id: "smit",
+    title: "Full Stack Development Program",
+    organization: "SMIT (Saylani Mass IT Training)",
+    description: "Intensive training program covering modern web development technologies including Next.js, TypeScript, and cloud deployment.",
+    startDate: "2024-01",
+    type: "education",
+    highlights: ["Learned Next.js and TypeScript", "Built multiple full-stack projects", "Cloud deployment on Vercel"],
+  },
+  {
+    id: "governor-ai",
+    title: "AI & Agentic AI Program",
+    organization: "Governor Sindh AI Initiative",
+    description: "Advanced program focused on AI engineering, agentic AI systems, LLMs, and building production-ready AI applications.",
+    startDate: "2024-06",
+    type: "education",
+    highlights: ["Agentic AI development", "LLM fine-tuning", "RAG system implementation"],
+  },
+  {
+    id: "freelance",
+    title: "Full Stack & AI Developer",
+    organization: "Freelance / Self-Employed",
+    description: "Building web applications, AI-powered systems, and automation solutions for clients worldwide.",
+    startDate: "2023-01",
+    type: "work",
+    highlights: ["Delivered 20+ projects", "Client satisfaction rate 95%+", "Specialized in AI integrations"],
+  },
+  {
+    id: "open-source",
+    title: "Open Source Contributor",
+    organization: "GitHub Community",
+    description: "Contributing to open-source projects, building tools for developers, and sharing AI/ML implementations.",
+    startDate: "2023-06",
+    type: "work",
+    highlights: ["Multiple open-source projects", "Growing community following", "Focus on AI developer tools"],
+  },
+];
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: "1",
+    name: "Alex Chen",
+    role: "CTO",
+    company: "TechVentures",
+    content: "Sadiq is one of the most talented developers I've worked with. His expertise in AI and full-stack development is exceptional. He delivered our project ahead of schedule with outstanding quality.",
+    avatar: "/images/avatar-1.jpg",
+  },
+  {
+    id: "2",
+    name: "Sarah Ahmed",
+    role: "Engineering Manager",
+    company: "Digital Solutions Inc.",
+    content: "Working with Sadiq was a game-changer. His understanding of agentic AI and modern web technologies helped us build something truly innovative. Highly recommended.",
+    avatar: "/images/avatar-2.jpg",
+  },
+  {
+    id: "3",
+    name: "Usman Riaz",
+    role: "Founder",
+    company: "AI Startups Co.",
+    content: "The AI-powered system Sadiq built for us transformed our workflow. His deep knowledge of LangChain and RAG systems is impressive. A true professional.",
+    avatar: "/images/avatar-3.jpg",
+  },
+  {
+    id: "4",
+    name: "Emily Zhang",
+    role: "Lead Developer",
+    company: "WebCraft Agency",
+    content: "Sadiq's portfolio of projects speaks for itself. He brings a unique blend of creativity and technical excellence to every project he touches.",
+    avatar: "/images/avatar-4.jpg",
+  },
+  {
+    id: "5",
+    name: "Ali Hassan",
+    role: "Product Manager",
+    company: "NextGen Tech",
+    content: "Exceptional developer with a deep understanding of both frontend aesthetics and backend architecture. His AI implementations are cutting-edge.",
+    avatar: "/images/avatar-5.jpg",
+  },
+];
+
+export const ROLE_TITLES = [
+  "Full Stack Developer",
+  "AI Engineer",
+  "Agentic AI Developer",
+  "Next.js Specialist",
+  "Open Source Builder",
+];
+
+export const SKILL_CATEGORIES = [
+  { id: "all", label: "All Skills" },
+  { id: "frontend", label: "Frontend" },
+  { id: "backend", label: "Backend" },
+  { id: "ai", label: "AI & ML" },
+  { id: "tools", label: "Tools" },
+] as const;

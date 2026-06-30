@@ -1,0 +1,7 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="600" fill="#1C1C2C"/>
+<rect x="50" y="50" width="700" height="500" rx="20" fill="#3A3A5A"/>
+<path d="M100 150L300 150L200 350L100 150Z" fill="#EC4899"/>
+<rect x="500" y="100" width="150" height="150" rx="75" fill="#3B82F6"/>
+<text x="400" y="150" font-family="Arial" font-size="40" fill="#FFFFFF" text-anchor="middle" alignment-baseline="middle">Gallery Image 2</text>
+</svg>

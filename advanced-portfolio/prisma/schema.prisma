@@ -1,0 +1,79 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Project {
+  id          String   @id @default(cuid())
+  title       String
+  slug        String   @unique
+  description String
+  longDescription String @db.Text
+  category    String
+  featured    Boolean  @default(false)
+  image       String
+  gallery     String[]
+  techStack   String[]
+  liveUrl     String?
+  githubUrl   String?
+  problem     String?  @db.Text
+  solution    String?  @db.Text
+  features    String[]
+  challenges  String?  @db.Text
+  results     String?  @db.Text
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([category])
+  @@index([featured])
+}
+
+model Testimonial {
+  id          String   @id @default(cuid())
+  name        String
+  role        String
+  company     String
+  image       String?
+  rating      Int      @default(5)
+  content     String   @db.Text
+  featured    Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([featured])
+}
+
+model Contact {
+  id          String   @id @default(cuid())
+  name        String
+  email       String
+  subject     String?
+  message     String   @db.Text
+  read        Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  @@index([read])
+  @@index([createdAt])
+}
+
+model Newsletter {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  subscribed  Boolean  @default(true)
+  createdAt   DateTime @default(now())
+
+  @@index([subscribed])
+}
+
+model Admin {
+  id          String   @id @default(cuid())
+  clerkId     String   @unique
+  email       String   @unique
+  name        String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}

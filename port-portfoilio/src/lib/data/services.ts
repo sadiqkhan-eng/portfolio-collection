@@ -1,0 +1,88 @@
+import { Service } from '@/types';
+
+export const services: Service[] = [
+  {
+    id: '1',
+    title: 'Modern Landing Page Development',
+    description: 'High-converting landing pages built with Next.js and Tailwind CSS',
+    icon: 'Layout',
+    features: [
+      'Responsive design for all devices',
+      'SEO optimization',
+      'Fast loading times',
+      'Conversion-focused design',
+      'Modern animations',
+      'Contact form integration',
+    ],
+  },
+  {
+    id: '2',
+    title: 'SaaS Website Development',
+    description: 'Complete SaaS platforms with dashboards and user management',
+    icon: 'Layers',
+    features: [
+      'Custom dashboard UI',
+      'User authentication',
+      'Database integration',
+      'Payment processing',
+      'Admin panel',
+      'Analytics integration',
+    ],
+  },
+  {
+    id: '3',
+    title: 'AI Chatbot Integration',
+    description: 'Intelligent chatbots powered by OpenAI and custom AI models',
+    icon: 'MessageSquare',
+    features: [
+      'Natural language processing',
+      'Context-aware responses',
+      'Custom training data',
+      'Multi-language support',
+      'Chat history',
+      'API integration',
+    ],
+  },
+  {
+    id: '4',
+    title: 'Dashboard UI Development',
+    description: 'Data-rich dashboards with charts, tables, and analytics',
+    icon: 'BarChart3',
+    features: [
+      'Interactive charts',
+      'Real-time data updates',
+      'Data visualization',
+      'Export functionality',
+      'Responsive tables',
+      'Custom widgets',
+    ],
+  },
+  {
+    id: '5',
+    title: 'Website Cloning & Redesign',
+    description: 'Recreate or modernize existing websites with improved design',
+    icon: 'Copy',
+    features: [
+      'Pixel-perfect replication',
+      'Modern tech stack',
+      'Performance improvements',
+      'Mobile optimization',
+      'Design enhancements',
+      'Code quality',
+    ],
+  },
+  {
+    id: '6',
+    title: 'API Integration Services',
+    description: 'Connect your application with third-party APIs and services',
+    icon: 'Plug',
+    features: [
+      'RESTful API integration',
+      'Payment gateways',
+      'Social media APIs',
+      'Email services',
+      'Cloud storage',
+      'Custom API development',
+    ],
+  },
+];
